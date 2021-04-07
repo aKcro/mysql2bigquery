@@ -48,7 +48,7 @@ def load_file(filename, dataset_name, table_name):
             os.remove(gzfilename)
         except Exception as e:
             print(e)
-            print("Error: File target {gzfilename} cannot be removed".format(file=gzfilename))
+            print("Error: File target {gzfilename} cannot be removed".format(gzfilename=gzfilename))
             return False
 
     print("Compressing file in gzip format...")
