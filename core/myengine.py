@@ -7,7 +7,7 @@ import sys
 
 def dump_query(dbname, query):
     """
-        There is multiple ways of doing this dump, in this case mysqlcli will be used because we are trying to avoid
+        There are multiple ways of doing this dump, in this case mysqlcli will be used because we are trying to avoid
         permission issues
     """
     filename = str(uuid.uuid4()) + ".csv"
