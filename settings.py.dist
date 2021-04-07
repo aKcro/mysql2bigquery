@@ -1,0 +1,9 @@
+# -*- coding: utf-8 -*-
+
+dbhost = '127.0.0.1'
+dbport = 3306
+dbuser = 'root'
+dbpass = ''
+
+key_path = "path/to/google/service_account.json"
+dump_folder = "/home/daniel/desarrollo/labs/dumps"
