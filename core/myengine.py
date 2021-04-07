@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-import lib.connector as connector
 import uuid
 import subprocess
 import os
